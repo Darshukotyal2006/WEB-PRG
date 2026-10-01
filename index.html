@@ -1,0 +1,199 @@
+Sure — here is **everything in one `index.html` file**, including the HTML and CSS:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tejas - CSE Student</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            margin: 5px 0;
+        }
+
+        nav {
+            background-color: #111827;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 17px;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        section h2 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+            font-size: 28px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            background-color: #1e3c72;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 20px;
+        }
+
+        .education {
+            border-left: 5px solid #1e3c72;
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #111827;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 35px;
+            }
+
+            header p {
+                font-size: 16px;
+            }
+
+            nav a {
+                margin: 0 8px;
+                font-size: 14px;
+            }
+
+            section {
+                margin: 20px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Hello, I'm Tejas</h1>
+        <p>2nd Year Computer Science Engineering Student</p>
+        <p>JAIN College of Engineering, Davanagere</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            My name is Tejas. I am currently studying in 2nd year
+            Computer Science and Engineering at JAIN College of
+            Engineering, Davanagere.
+        </p>
+
+        <p>
+            I am interested in programming, web development,
+            software development and learning new technologies.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">C Programming</div>
+            <div class="skill">Java</div>
+            <div class="skill">Python</div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="education">
+            <h3>Computer Science and Engineering</h3>
+            <p>2nd Year</p>
+            <p>JAIN College of Engineering, Davanagere</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>Email: your-email@example.com</p>
+        <p>Phone: +91 XXXXX XXXXX</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Tejas | Computer Science Engineering Student</p>
+    </footer>
+
+</body>
+</html>
+```
+
+ Save this as **`index.html`** and open it in your browser.
